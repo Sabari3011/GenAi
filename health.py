@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 from PIL import Image
 
-apikey="AIzaSyAZXd4Q_48TqdZhUz9M_S_NzEf6qbar3Io"
+apikey="Use_Your_Apikey"
 
 genai.configure(api_key=apikey)
 model = genai.GenerativeModel('gemini-pro-vision')
